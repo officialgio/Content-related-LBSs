@@ -1,0 +1,14 @@
+{
+  "name": "content-related-lbss",
+  "version": "1.0.0",
+  "description": "Research Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm run install--server && npm run install--client",
+    "deploy": "npm run build --prefix client/content-related-lbs && npm start --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
